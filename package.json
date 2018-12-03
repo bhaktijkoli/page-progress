@@ -1,0 +1,21 @@
+{
+  "name": "page-progress-js",
+  "version": "1.0.0",
+  "description": "Page Progress - Javascript Library",
+  "main": "index.js",
+  "scripts": {
+    "build": "grunt build"
+  },
+  "keywords": ["page", "progress", "javascript", "library"],
+  "author": "Bhaktij Koli <bhaktijkoli121@gmail.com> (bhaktijkoli.com)",
+  "license": "GNU GPLv3",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-notify": "^0.4.5"
+  }
+}
