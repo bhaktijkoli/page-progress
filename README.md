@@ -1,6 +1,9 @@
 # Page Progress JS
 A simple animated page progress bar.
 
+![screen recording 2018-12-04 at 7 38 20 pm](https://user-images.githubusercontent.com/16408896/49447432-8f222900-f7fc-11e8-9213-1280ce373fb8.gif)
+
+
 ## Setup
 Include 'page-progress.min.js' in your html document
 
