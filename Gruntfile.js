@@ -6,12 +6,19 @@ module.exports = function(grunt) {
       options: {
         stripBanners: true,
       },
-      dist: {
+      demo: {
         src: [
           // Add your js file here
           'src/js/demo.js',
         ],
         dest: 'dist/js/demo.js',
+      },
+      dist: {
+        src: [
+          // Add your js file here
+          'src/js/page-progress.js',
+        ],
+        dest: 'dist/js/page-progress.js',
       },
     },
     sass: {
@@ -58,7 +65,8 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'dist/js',
           src: '*.js',
-          dest: 'dist/js'
+          dest: 'dist/js',
+          ext: '.min.js'
         }]
       }
     },
@@ -69,7 +77,7 @@ module.exports = function(grunt) {
           cwd: 'dist/css',
           src: '*.css',
           dest: 'dist/css',
-          ext: '.css'
+          ext: '.min.css'
         }]
       }
     }
