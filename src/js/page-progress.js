@@ -1,3 +1,9 @@
+/*
+ * Name    : Page Progress
+ * Version : 1.0.0
+ * Author  : Bhaktij Koli <bhaktijkoli121@gmail.com> (bhaktijkoli.com)
+ * GitHub  : https://github.com/bhaktijkoli/page-progress
+*/
 window.pagePrgoress = function(selector, options) {
   if(options == null) options = {};
   var object = document.querySelector(selector);

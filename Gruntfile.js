@@ -3,9 +3,6 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     concat: {
-      options: {
-        stripBanners: true,
-      },
       demo: {
         src: [
           // Add your js file here
